@@ -308,6 +308,9 @@ load_plugins {
 //
 // pane_frames true
 
+// Disable pane frames around the panes
+pane_frames false
+
 // Set the pane frame style when pane_frames is enabled
 // Options:
 //   - titles (default - draw a title above each pane)
