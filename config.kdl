@@ -314,6 +314,13 @@ load_plugins {
 //
 // pane_frame_style "titles"
 
+// Configure the look of pane frames and hide the session name from the UI
+ui {
+    pane_frames {
+        hide_session_name true
+    }
+}
+
 // Toggle between having Zellij lay out panes according to a predefined set of layouts whenever possible
 // Options:
 //   - true (default)
