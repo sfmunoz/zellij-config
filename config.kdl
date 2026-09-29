@@ -574,6 +574,9 @@ load_plugins {
 //
 // show_release_notes false
 
+// Disable usage tips shown at Zellij startup
+show_startup_tips false
+
 // Whether to enable mouse hover effects and pane grouping functionality
 // Default: true
 //
