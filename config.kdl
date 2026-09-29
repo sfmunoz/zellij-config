@@ -3,6 +3,8 @@ keybinds {
     normal {
         bind "Ctrl PageUp" { GoToPreviousTab; }
         bind "Ctrl PageDown" { GoToNextTab; }
+        bind "Ctrl Shift PageUp" { MoveTab "Left"; }
+        bind "Ctrl Shift PageDown" { MoveTab "Right"; }
         // uncomment this and adjust key if using copy_on_select=false
         // bind "Alt c" { Copy; }
     }
