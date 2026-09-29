@@ -2,6 +2,12 @@
 
 `~/.config/zellij/` configuration
 
+## References
+
+- https://zellij.dev/
+  - https://zellij.dev/documentation/
+- https://github.com/zellij-org/zellij
+
 ## Usage
 
 ```
