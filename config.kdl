@@ -5,6 +5,10 @@ keybinds {
         bind "Ctrl PageDown" { GoToNextTab; }
         bind "Ctrl Shift PageUp" { MoveTab "Left"; }
         bind "Ctrl Shift PageDown" { MoveTab "Right"; }
+        bind "Ctrl Left" { MoveFocus "Left"; }
+        bind "Ctrl Right" { MoveFocus "Right"; }
+        bind "Ctrl Down" { MoveFocus "Down"; }
+        bind "Ctrl Up" { MoveFocus "Up"; }
         // uncomment this and adjust key if using copy_on_select=false
         // bind "Alt c" { Copy; }
     }
