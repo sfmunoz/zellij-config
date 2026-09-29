@@ -421,6 +421,9 @@ ui {
 //
 // mouse_mode false
 
+// Mouse mode disabled
+mouse_mode false
+
 // Configure the scroll back buffer size
 // This is the number of lines zellij stores for each pane in the scroll back
 // buffer. Excess number of lines are discarded in a FIFO fashion.
