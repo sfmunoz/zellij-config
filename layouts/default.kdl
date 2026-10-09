@@ -13,16 +13,16 @@ layout {
         //     }
         // }
     }
-    tab focus=true {
+    tab name="t1" focus=true {
         pane
     }
-    tab {
+    tab name="t2" {
         pane
     }
-    tab {
+    tab name="t3" {
         pane
     }
-    tab {
+    tab name="t4" {
         pane
     }
 }
