@@ -14,8 +14,10 @@ keybinds {
         // uncomment this and adjust key if using copy_on_select=false
         // bind "Alt c" { Copy; }
     }
+    // This allows sending 'Ctrl+g' to the inner app
     locked {
-        bind "Ctrl g" { SwitchToMode "Normal"; }
+        bind "Ctrl g" { Write 7; }  // otherwise 'Ctrl+g' would still be defined
+        bind "Ctrl f" { SwitchToMode "Normal"; }
     }
     resize {
         bind "Ctrl n" { SwitchToMode "Normal"; }
